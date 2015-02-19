@@ -1,0 +1,58 @@
+body {
+  margin: 0 !important;
+}
+
+#map_wrapper {
+  height: 100%;
+}
+
+#map_canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#legend {
+  background: white;
+  padding: 10px;
+}
+
+#legend {
+  width: 100px;
+  background: #FFF;
+  padding: 10px;
+  margin: 5px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.color {
+  border: 1px solid;
+  height: 12px;
+  width: 12px;
+  margin-right: 3px;
+  float: left;
+}
+
+.grey {
+  background: #A3A3A3;
+}
+
+.black {
+  background: #000000;
+}
+
+.red {
+  background: #FF0000;
+}
+
+.orange {
+  background: #FF9900;
+}
+
+.blue {
+  background: #3399FF;
+}
+
+.green {
+  background: #00FF00;
+}
