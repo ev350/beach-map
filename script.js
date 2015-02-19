@@ -16,15 +16,6 @@ function initialize() {
     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
     map.setTilt(45);
 
-
-    var layer = new google.maps.FusionTablesLayer({
-      query: {
-        select: 'Location',
-        from: '1NIVOZxrr-uoXhpWSQH2YJzY5aWhkRZW0bWhfZw'
-      },
-      map: map
-    });
-
     // Create the legend and display on the map
     var legend = document.createElement('div');
     legend.id = 'legend';
